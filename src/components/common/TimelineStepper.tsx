@@ -1,11 +1,13 @@
 import React from "react";
+import { ReactNode } from 'react';
 import { Typography, Box, Stepper, Step, StepLabel, StepContent, useTheme } from "@mui/material";
 
+type DescriptionType = string | ReactNode;
 interface TimelineItem {
     title: string;
     subtitle: string;
     duration: string;
-    description: string;
+    description: DescriptionType;
 }
 
 interface TimelineStepperProps {

@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Typography, Grid, useTheme } from "@mui/material";
 import { skills } from "../data/Skills";
+
 const Skills: React.FC = () => {
     const theme = useTheme();
 
@@ -12,7 +13,7 @@ const Skills: React.FC = () => {
 
             <Grid container spacing={2} justifyContent="center">
                 {skills.map((skill, index) => (
-                    <Grid item xs={12} sm={6} md={3} key={index}>
+                    <Grid  key={index} component="div"> {/* Added component="div" */}
                         <a href={skill.link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                             <Card 
                                 sx={{ 
