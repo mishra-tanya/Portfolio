@@ -30,7 +30,7 @@ const Sidebar: React.FC = () => {
 
   const menuItems = [
     { text: "Email", icon: <EmailOutlined />, value: "tanyamishra1909@gmail.com", link: "mailto:tanyamishra1909@gmail.com" },
-    { text: "Contact", icon: <Phone />, value: "7737718414" },
+    { text: "Contact", icon: <Phone />, value: "+91 7737718414",link: "tel:+917737718414" },
     { text: "Location", icon: <LocationCity />, value: "Bhiwadi, Rajasthan" },
   ];
 
