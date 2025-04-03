@@ -1,0 +1,21 @@
+export const skills = [
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg", title: "Java", link: "https://docs.oracle.com/en/java/" },
+    { logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg", title: "Laravel", link: "https://laravel.com/docs" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg", title: "Django", link: "https://docs.djangoproject.com/en/stable/" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", title: "React.js", link: "https://react.dev/" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", title: "MySQL", link: "https://dev.mysql.com/doc/" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg", title: "PHP", link: "https://www.php.net/docs.php" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", title: "JavaScript", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", title: "Python", link: "https://docs.python.org/3/" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", title: "TypeScript", link: "https://www.typescriptlang.org/docs/" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", title: "HTML", link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", title: "CSS", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg", title: "Bootstrap", link: "https://getbootstrap.com/docs/" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg", title: "Git", link: "https://git-scm.com/doc" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", title: "GitHub", link: "https://docs.github.com/en" },
+    { logo: "https://www.svgrepo.com/show/354202/postman-icon.svg", title: "Postman", link: "https://learning.postman.com/docs/" },
+
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg", title: "C", link: "https://en.cppreference.com/w/c" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg", title: "Tailwind CSS", link: "https://tailwindcss.com/docs" },
+    { logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg", title: "MongoDB", link: "https://www.mongodb.com/docs/" },
+];
